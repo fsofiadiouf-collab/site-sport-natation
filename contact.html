@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - Natation</title>
+  <link rel="stylesheet" href="style6.css">
+</head>
+<body class="page-avec-fond">
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="presentation.html">Présentation</a></li>
+      <li><a href="celebrites.html">Célébrités</a></li>
+      <li><a href="competitions.html">Compétitions</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="bloc-contact">
+  
+  <h1>Contact</h1>
+  <p class="sous-titre"><i>Envie d'échanger sur la natation ?</i></p>
+
+  <hr class="separateur">
+
+  <h2 class="titre-section">Que souhaites-tu ?</h2>
+
+  <div class="grille-options">
+    <div class="carte-option">
+      <h3>🏊 En savoir plus</h3>
+      <p>Des questions sur la natation ? Les techniques, l'histoire, les bienfaits ?</p>
+    </div>
+    <div class="carte-option">
+      <h3>🏆 Compétitions</h3>
+      <p>Questions sur les Jeux Olympiques, les championnats, les records ?</p>
+    </div>
+    <div class="carte-option">
+      <h3>💬 Donner mon avis</h3>
+      <p>Que penses-tu du site ? Tes suggestions m'intéressent !</p>
+    </div>
+  </div>
+
+  <hr class="separateur">
+
+  <h2 class="titre-section">📩 Envoie-moi un message</h2>
+
+  <form action="mailto:fsofia.diouf@gmail.com" method="post" enctype="text/plain" class="formulaire-contact">
+    
+    <div class="groupe-radio">
+      <p class="label-groupe"><strong>Ton sujet :</strong></p>
+      <div class="options-radio">
+        <label class="radio-label">
+          <input type="radio" name="sujet" value="En savoir plus" checked> 🏊 En savoir plus
+        </label>
+        <label class="radio-label">
+          <input type="radio" name="sujet" value="Compétitions"> 🏆 Compétitions
+        </label>
+        <label class="radio-label">
+          <input type="radio" name="sujet" value="Avis"> 💬 Mon avis
+        </label>
+        <label class="radio-label">
+          <input type="radio" name="sujet" value="Autre"> ✨ Autre
+        </label>
+      </div>
+    </div>
+    
+    <div class="champ-formulaire">
+      <label for="nom"><strong>Ton nom :</strong></label>
+      <input type="text" id="nom" name="nom" required>
+    </div>
+    
+    <div class="champ-formulaire">
+      <label for="email"><strong>Ton email :</strong></label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    
+    <div class="champ-formulaire">
+      <label for="message"><strong>Ton message :</strong></label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+    </div>
+    
+    <button type="submit" class="bouton-envoi">Envoyer mon message</button>
+    
+  </form>
+
+  <hr class="separateur">
+
+  <h2 class="titre-section">📧 Contact direct</h2>
+  <div class="email-direct">
+    <p>Tu peux aussi m'écrire à :</p>
+    <p class="email-adresse"><strong>fsofia.diouf@gmail.com</strong></p>
+  </div>
+
+</main>
+
+<footer>
+  <div class="footer1">
+    <p>© 2026 - Site sur la natation</p>
+    <div class="footer-liens">
+      <a href="mentions.html">Mentions légales</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
